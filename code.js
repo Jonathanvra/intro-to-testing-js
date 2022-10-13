@@ -10,9 +10,19 @@ function subtract(x, y) {
         return false;
     }
 }
-function sayHello() {
-    return "Hello!"
+function sayHello(str) {
+    if (str === "Jane") {
+        return "Hello, Jane!";
+    } else if(str === "Alex") {
+        return "Hello, Alex"
+    }
+
+    else {
+        return "Hello!"
+    }
 }
 function sayGoodBye() {
     return "Good Bye!";
 }
+
+
