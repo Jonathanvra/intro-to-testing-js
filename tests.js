@@ -96,9 +96,6 @@ describe("isFive", function(){
         expect(isFive("5")).toBe(false);
     });
 });
-describe("isEven", function(){
-   it("should return")
-});
 // TODOne
 // Inside of tests.js, write a describe block for our new isFive function.
 // As your first, failing test, write an it and an expect asserting that a function named isFive exists.
@@ -111,10 +108,19 @@ describe("isEven", function(){
 // What about if we pass in the string "5"? Do you want isFive to return true for that?
 //                                                                                    If so, write the test, ensure that the test is failing, and then write the implementation
 // Commit your work to git and push to GitHub before moving forward.
+
 describe("isEven", function(){
-    it("should return")
+    it("should return as a defined function", function(){
+        expect(typeof isEven).toBe("function")
+    });
+    it("should return a boolean no matter the input", function(){
+       expect(typeof isEven()).toBe("boolean");
+    });
+    it("should return true when passed 4", function(){
+       expect(isEven(4)).toBe(true);
+    });
 });
-// toDo
+// toDone
 // Start with the smallest tests first. Assert that the function is defined.
 //     Write just enough code to green the test
 // Build up functionality one small piece at a time.
@@ -133,6 +139,8 @@ describe("isEven", function(){
 // Refactor when and where you can. Be careful not to refactor before you have a handful of green tests.
 //     Repeat until the tests are robust and the function works as intended.
 //     Commit your work to git and push to GitHub before moving forward.
+
+
 
 
 // describe('sayGoodBye', function(){

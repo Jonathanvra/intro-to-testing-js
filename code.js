@@ -24,6 +24,12 @@ function isFive(x){
     }
      return typeof x === 'boolean'
 }
+function isEven(v){
+    if (v % 2 === 0){
+        return true;
+    }
+        return typeof v === 'boolean'
+}
 // function sayGoodBye() {
 //     return "Good Bye!";
 // }
