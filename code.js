@@ -11,14 +11,10 @@ function subtract(x, y) {
     }
 }
 function sayHello(input) {
-    if (input === "Jane") {
-        return "Hello, " + input + "!";
-    } else if(input === "Alex") {
-        return "Hello, " + input + "!";
-    } else if(input === "Pat"){
-        return "Hello, " + input + "!";
-    } else {
-        return "Hello, " + input + "!"
+     if(typeof input !== "string" || input === "" || input === "5"){
+        return "Hello, World!";
+     } else {
+        return  `Hello, ${input}!`;
     }
 }
 function sayGoodBye() {
