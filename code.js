@@ -22,13 +22,18 @@ function isFive(x){
     if(x === 5) {
         return true;
     }
-     return typeof x === 'boolean'
+     return typeof x === 'boolean';
 }
-function isEven(v){
-    if (v % 2 === 0){
+function isEven(e){
+    if(e % 2 === 0){
         return true;
     }
-        return typeof v === 'boolean'
+        return typeof e === 'boolean';
+}
+
+function isVowel(v){
+    return v === "A"|| v === "a" || v === "E" || v === "e" || v === "I" || v === "i" || v === "O" || v === "o"
+    return typeof v === 'function';
 }
 // function sayGoodBye() {
 //     return "Good Bye!";

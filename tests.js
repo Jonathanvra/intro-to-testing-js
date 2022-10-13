@@ -140,6 +140,34 @@ describe("isEven", function(){
 //     Repeat until the tests are robust and the function works as intended.
 //     Commit your work to git and push to GitHub before moving forward.
 
+describe("isVowel", function(){
+    it("should return is a defined function", function(){
+        expect(typeof isVowel).toBe('function');
+    });
+    it("should return a boolean no matter the input", function(){
+        expect(typeof isVowel()).toBe('boolean');
+    })
+    it("should return")
+});
+
+// Start with the smallest tests first.
+//     Write just enough code to green the test
+// Build up functionality one small piece at a time.
+//     Commit your work to git at each step.
+//     Write each assertion, confirm the test fails, write only enough code to green that specific test, refactor, then repeat.
+//     Remember to add and then "green" one test at a time. That's part of the fundamental approach of TDD.
+// Assert that:
+//     isVowel always returns a boolean
+// isVowel("a") returns true
+// isVowel("A") returns true
+// isVowel("y") returns false
+// isVowel(4) returns false
+// isVowel(true) or isVowel(false) both return false
+// isVowel("banana") returns false
+// isVowel() returns false
+// Refactor when appropriate and possible.
+//     Repeat until the tests are robust and the function works as intended.
+//     Commit your work to git and push to GitHub before moving forward.
 
 
 
