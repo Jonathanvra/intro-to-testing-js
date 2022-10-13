@@ -14,10 +14,10 @@ function sayHello(str) {
     if (str === "Jane") {
         return "Hello, Jane!";
     } else if(str === "Alex") {
-        return "Hello, Alex"
-    }
-
-    else {
+        return "Hello, Alex!";
+    } else if(str === "Pat"){
+        return "Hello, Pat!";
+    } else {
         return "Hello!"
     }
 }
