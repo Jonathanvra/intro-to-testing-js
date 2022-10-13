@@ -44,7 +44,7 @@ describe("subtract", function(){
 });
 
 describe('sayHello', function(){
-    it("should return a string when called", function() {
+    it("should return a defined function in code.js", function() {
         expect(typeof sayHello()).toBe("string");
     });
     it("should return 'Hello, Jane!' when Jane is passed", function(){

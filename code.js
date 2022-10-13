@@ -10,15 +10,15 @@ function subtract(x, y) {
         return false;
     }
 }
-function sayHello(str) {
-    if (str === "Jane") {
-        return "Hello, Jane!";
-    } else if(str === "Alex") {
-        return "Hello, Alex!";
-    } else if(str === "Pat"){
-        return "Hello, Pat!";
+function sayHello(input) {
+    if (input === "Jane") {
+        return "Hello, " + input + "!";
+    } else if(input === "Alex") {
+        return "Hello, " + input + "!";
+    } else if(input === "Pat"){
+        return "Hello, " + input + "!";
     } else {
-        return "Hello!"
+        return "Hello, " + input + "!"
     }
 }
 function sayGoodBye() {
