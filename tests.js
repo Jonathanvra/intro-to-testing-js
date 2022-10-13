@@ -3,7 +3,7 @@ describe('helloWorld', function() {
     it('should be a defined function within code.js', function() {
       expect(typeof helloWorld).toBe('function');
     });
-    it('should return a string when called', function() {
+    it("should return a string when called", function() {
       expect(typeof helloWorld()).toBe("string");
     });
     it('should return the string "Hello, World!" when executed', function() {
@@ -44,13 +44,13 @@ describe("subtract", function(){
 });
 
 describe('sayHello', function(){
-   it("should be a defined function in code.js", function(){
-       expect(typeof sayHello).toBe('function');
-   });
+    it("should return a string when called", function() {
+        expect(typeof sayHello()).toBe("string");
+    });
 });
 
 describe('sayGoodBye', function(){
     it("should be a defined function in code.js", function(){
-        expect(typeof sayGoodBye).toBe('function');
+        expect(typeof sayGoodBye()).toBe("string");
     });
 });

@@ -10,10 +10,9 @@ function subtract(x, y) {
         return false;
     }
 }
-function sayHello(){
+function sayHello() {
     return "Hello!"
 }
-
-function sayGoodBye(){
-    return "Good Bye!"
+function sayGoodBye() {
+    return "Good Bye!";
 }
