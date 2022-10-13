@@ -82,8 +82,61 @@ describe('sayHello', function(){
     });
 });
 
-describe('sayGoodBye', function(){
-    it("should be a defined function in code.js", function(){
-        expect(typeof sayGoodBye()).toBe("string");
+describe("isFive", function(){
+    it("should be a defined function", function(){
+       expect(typeof isFive).toBe("function");
+    });
+    it ("should return boolean no matter what the input is", function(){
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it ("should return true when 5 is passed", function(){
+        expect(isFive(5)).toBe(true);
+    });
+    it("should return false when '5'", function(){
+        expect(isFive("5")).toBe(false);
     });
 });
+describe("isEven", function(){
+   it("should return")
+});
+// TODOne
+// Inside of tests.js, write a describe block for our new isFive function.
+// As your first, failing test, write an it and an expect asserting that a function named isFive exists.
+//     Run the tests by refreshing report.html to show the red, failing test.
+//     Write just enough code inside of code.js to define an empty function for isFive.
+//                                                                                  Now, refresh report.html to ensure that all tests are green.
+//     What other tests and implementation cycles should you do for isFive?
+//                                                                      Ensure that isFive returns a boolean no matter what the input
+// Ensure that isFive returns true when passed 5
+// What about if we pass in the string "5"? Do you want isFive to return true for that?
+//                                                                                    If so, write the test, ensure that the test is failing, and then write the implementation
+// Commit your work to git and push to GitHub before moving forward.
+describe("isEven", function(){
+    it("should return")
+});
+// toDo
+// Start with the smallest tests first. Assert that the function is defined.
+//     Write just enough code to green the test
+// Build up functionality one small piece at a time.
+//     Write each assertion, confirm the test fails, write only enough code to green that specific test, refactor, then repeat.
+//     Remember to add and then "green" one test at a time. That's part of the fundamental approach of TDD.
+// Assert that isEven:
+//     returns a boolean no matter the input
+// returns true when executed with isEven(2)
+//     returns true when executed with isEven(-4)
+//     returns false when executed with isEven(3)
+//     returns false when called with isEven("banana")
+//     returns true when called with isEven("8")
+//     returns false when called with isEven(Infinity)
+//     return false when called with a boolean input like isEven(true) or isEven(false)
+// returns false when called without an argument like isEven()
+// Refactor when and where you can. Be careful not to refactor before you have a handful of green tests.
+//     Repeat until the tests are robust and the function works as intended.
+//     Commit your work to git and push to GitHub before moving forward.
+
+
+// describe('sayGoodBye', function(){
+//     it("should be a defined function in code.js", function(){
+//         expect(typeof sayGoodBye()).toBe("string");
+//     });
+// });

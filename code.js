@@ -17,8 +17,15 @@ function sayHello(input) {
         return  `Hello, ${input}!`;
     }
 }
-function sayGoodBye() {
-    return "Good Bye!";
+
+function isFive(x){
+    if(x === 5) {
+        return true;
+    }
+     return typeof x === 'boolean'
 }
+// function sayGoodBye() {
+//     return "Good Bye!";
+// }
 
 
